@@ -1,0 +1,3 @@
+[submodule "packages/telescope-theme-crater"]
+	path = packages/telescope-theme-crater
+	url = git@github.com:meteorclub/telescope-theme-crater.git
