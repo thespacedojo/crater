@@ -4,8 +4,7 @@
 # # but you can also edit it by hand.
 #
 # ############ Telescope Core ############
-
-telescope:core
+telescope:core@0.22.2
 
 # ############ Telescope Packages (Optional) ############
 
@@ -34,7 +33,8 @@ telescope:tags
 # telescope:theme-base
 # telescope:theme-hubble
 telescope:update-prompt
-
+utilities:avatar@0.7.14
 # ############ Your Custom Packages ############
 
 telescope-theme-crater
+astronomerio:core
