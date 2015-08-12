@@ -38,6 +38,7 @@ facebook@1.2.1
 fastclick@1.0.3
 fortawesome:fontawesome@4.3.0
 fourseven:scss@2.1.1
+gentlenode:spiderable-ssl@0.0.4
 geojson-utils@1.0.3
 handlebars@1.0.3
 html-tools@1.0.4
@@ -110,7 +111,6 @@ sha@1.0.3
 softwarerero:accounts-t9n@1.0.9
 spacebars@1.0.6
 spacebars-compiler@1.0.6
-spiderable@1.0.7
 srp@1.0.3
 standard-app-packages@1.0.5
 stylus@1.0.7
