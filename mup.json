@@ -1,0 +1,42 @@
+{
+  // Server authentication info
+  "servers": [
+    {
+      "host": "198.199.69.76",
+      "username": "root"
+    }
+  ],
+
+  // Install MongoDB in the server, does not destroy local MongoDB on future setup
+  "setupMongo": false,
+
+  // WARNING: Node.js is required! Only skip if you already have Node.js installed on server.
+  "setupNode": true,
+
+  // WARNING: If nodeVersion omitted will setup 0.10.31 by default. Do not use v, only version number.
+  "nodeVersion": "0.10.36",
+
+  // Install PhantomJS in the server
+  "setupPhantom": true,
+
+  // Application name (No spaces)
+  "appName": "crater",
+
+  // Location of app (local directory)
+  "app": "/Users/josh/Code/MeteorClub/crater",
+
+  // Configure environment
+  //smtp://postmaster%40crater.io:21iffe4kd-y9@smtp.mailgun.org:25/
+  "env": {
+    "PORT": 8080,
+    "ROOT_URL": "http://crater.io",
+    "METEOR_PKG_SPIDERABLE_PHANTOMJS_ARGS": "--ignore-ssl-errors=yes",
+    "MONGO_URL": "mongodb://craterop:crat3r0p@candidate.13.mongolayer.com:10663,candidate.36.mongolayer.com:10497/craterio",
+    "MONGO_OPLOG_URL": "mongodb://craterop:crat3r0p@candidate.13.mongolayer.com:10663,candidate.36.mongolayer.com:10497/local?authSource=craterio",
+    "MAIL_URL": "smtp://josh%40crater.io:crat3r01!@smtp.gmail.com:465"
+  },
+
+  // Meteor Up checks if the app comes online just after the deployment
+  // before mup checks that, it will wait for no. of seconds configured below
+  "deployCheckWaitTime": 120
+}
